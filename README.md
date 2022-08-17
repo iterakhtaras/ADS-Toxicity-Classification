@@ -12,7 +12,7 @@ This ADS detects toxicity in online comments while simultaneously attempting to 
 
 As mentioned before, the first goal of this ADS is to identify comments in online conversations that are toxic. The second goal of this ADS is to ensure that this occurs without exhibiting bias, and to differentiate between comments that are attacking protected minority groups and those just mentioning them. What most likely will have to be sacrificed in exchange for achieving these goals is accuracy of the model overall. The two choices with this ADS will result in either an increase in the number of false positives of the ADS, or an increase in the number of false negatives of the ADS. In the case that there is no attempt to minimize the bias exhibited by the system, the number of false positives will increase, as many comments will be flagged for toxic (false positive result for toxicity) even though the comment was not toxic. In the case that there is an attempt to minimize the bias exhibited by the system, the number of false negatives will increase, as many comments that are toxic may be missed by the system. In either case, accuracy will decrease.
 ## Background
-###Data selection/collection
+### Data selection/collection
 The data that is used by this ADS has been collected from the Kaggle competition “Jigsaw Unintended Bias in Toxicity Classification”. This competition offered $65,000 of prize money to the winner. The data was collected by Kaggle from the Civil Comments platform, after the platform shut down and made available its archive of roughly 2 million comments for study and use.
 
 ### Data description
